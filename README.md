@@ -47,10 +47,3 @@ git config --global user.email "rdas51474@gmail.com"
 git commit -m 'behtar code'
 git push -u origin void
 ```
-
-example query selectors
-```
-{$or: [{"wa_id":"+919199202217"},{"wa_id":"+913339886000"}]}
-
-{"event":{$elemMatch:{"event_id":5}}}
-```
